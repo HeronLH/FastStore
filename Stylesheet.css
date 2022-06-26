@@ -1,0 +1,139 @@
+#espcatped {
+    padding: 10px;
+}
+
+#tamanhofotoitem {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+#espacologo {
+    padding-left: 50px;
+}
+#help {
+    text-align: center;
+    color: black;
+    size: 100px;
+    margin-bottom: 50px;
+}
+#config {
+    text-align: center;
+    color: black;
+    size: 100px;
+    margin-bottom: 50px;
+}
+#sobrenos3 {
+    text-align: center;
+    color: orange;
+    margin: auto;
+    font-weight: bold;
+    padding: 15px;
+}
+#sobrenos2 {
+    text-align: center;
+    color: black;
+    margin: auto;
+    font-weight: bold;
+    padding: 15px;
+}
+#sobrenos {
+    text-align: center;
+    color: red;
+    margin: auto;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#conteudo2 {
+    width: 30%;
+    height: 30px;
+}
+#pagini {
+    text-align: center;
+    color: rgb(255, 0, 0);
+    padding: 10px;
+    background-color: lightblue;
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#agrad {
+    text-align: center;
+    color: red;
+    size: 100px;
+    margin-bottom: 50px;
+}
+#tamanhoitem {
+    width: 430;
+    height: 590;
+}
+#preco {
+    color: red;
+    font-weight: bold;
+    text-align: left;
+}
+#tamanho {
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+}
+#fundo {
+    background: white;
+}
+#conteudo {
+    width: 30%;
+    height: 15%;
+    text-align: left;
+    margin-left: 500px;
+}
+#menu1 {
+    width: 15%;
+    margin: 0; padding: 0;
+    float: left;
+}
+#menu1 ul li {
+        margin: 0; padding: 0px;
+        border-bottom: 1px solid orange;
+        text-align: left;
+        list-style-type: none;
+    }
+
+    #menu1 a:link {
+            background: #000000;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            text-decoration: none;
+            padding: 8px;
+            display: block;
+        }
+
+        #menu1 a:hover {
+                background: #E5F0FF;
+                color: rgb(235, 50, 210);
+            }
+#menu2 {
+    width: 15%;
+    text-align: right;
+    margin: 0; padding: 0;
+    float: right;
+}
+#menu2 ul li {
+        margin: 0; padding: 0px;
+        text-align: right;
+        list-style-type: none;
+        border-bottom: 1px solid orange;
+    }
+    #menu2 a:link {
+            background: #000000;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            text-decoration: none;
+            padding: 8px;
+            display: block;
+        }
+        #menu2 a:hover {
+                background: #E5F0FF;
+                color: rgb(235, 50, 210);
+            }

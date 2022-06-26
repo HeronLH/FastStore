@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="Stylesheet.css" media="screen"/>
+        <link rel="icon" type="imagem/png" href="Imagens/LogoFastStore.png" />
+        <title>Fast Store</title>
+    </head>
+
+<header>
+    <table>
+    <tr>
+        <td><a href="index.html"><img src="Imagens/Logo.png" alt="Página Inicial" width="200px" height="100px"></a></td>
+        <td id="espacologo"><h1>A melhor loja do Brasil.</h1></td>
+    </tr>
+</table>
+</header>
+
+<body id="fundo">
+    <h1>Carrinho de compras:</h1>
+
+    <form action="https://formsubmit.co/l.heroncampos@gmail.com" method="POST" class="form">
+        <label style="font-weight: bold;" for="nome">Nome:</label>
+        <input type="text" id="nomecompra" name="Nome"><br>
+        <label style="font-weight: bold;" for="sobrenome">Sobrenome:</label>
+        <input type="text" id="sobrenomecompra" name="Sobrenome"><br>
+        <label style="font-weight: bold;" for="mail">Email:</label>
+        <input type="text" id="mailcompra" name="Mail"><br><br>
+
+    <label for="pedido">Estou a procura de:</label>
+    <select name="Pedido" id="pedido">
+        <option value="Tipo desconhecido">Selecione</option>
+        <option value="Orçamento">Orçamento</option>
+        <option value="Compra">Compra</option>
+    </select>
+
+    <p>Escolha os produtos:</p>
+
+    <details id="espcatped"><table style="border: 1px solid black; border-collapse: collapse;">
+        <summary style="font-weight: bold;" >Monitoramento</summary>
+        <tr><td><label for="cat1">Câmera Dome Orion</label></td>
+        <td><input type="checkbox" id="item1cat1" name="Câmera Dome Orion"></td></tr>
+        <tr><td><label for="cat1">Câmera Ip Luatek</label></td>
+        <td><input type="checkbox" id="item2cat1" name="Câmera Ip Luatek"></td></tr>
+        <tr><td><label for="cat1">Mini Wifi Câmera</label></td>
+        <td><input type="checkbox" id="item3cat1" name="Mini Wifi Câmera"></td></tr>
+        <tr><td><label for="cat1">Câmera Segurança Intelbras</label></td>
+        <td><input type="checkbox" id="item4cat1" name="Câmera Segurança Intelbras"></td></tr>
+        <tr><td><label for="cat1">DVR Digital Intelbras</label></td>
+        <td><input type="checkbox" id="item5cat1" name="DVR Digital Intelbras"></td></tr>
+        <tr><td><label for="cat1">Kit Segurança Intelbras</label></td>
+        <td><input type="checkbox" id="item6cat1" name="Kit Segurança Intelbras"></td></tr>
+    </table></details>
+
+    <details id="espcatped"><table style="border: 1px solid black; border-collapse: collapse;">
+        <summary style="font-weight: bold;" >Eletrônicos</summary>
+        <tr><td><label for="cat2">Redmi Note 10s</label></td>
+        <td><input type="checkbox" id="item1cat2" name="Redmi Note 10s"></td></tr>
+        <tr><td><label for="cat2">Samsung S22</label></td>
+        <td><input type="checkbox" id="item2cat2" name="Samsung S22"></td></tr>
+        <tr><td><label for="cat2">Smartwatch Xiaomi</label></td>
+        <td><input type="checkbox" id="item3cat2" name="Smartwatch Xiaomi"></td></tr>
+        <tr><td><label for="cat2">Smart TV Samsung 50pol</label></td>
+        <td><input type="checkbox" id="item4cat2" name="Smart TV Samsung 50pol"></td></tr>
+        <tr><td><label for="cat2">Micro Toshiba 35l</label></td>
+        <td><input type="checkbox" id="item5cat2" name="Micro Toshiba 35l"></td></tr>
+        <tr><td><label for="cat2">Xbox Series X</label></td>
+        <td><input type="checkbox" id="item6cat2" name="Xbox Series X"></td></tr>
+    </table></details>
+
+    <details id="espcatped"><table style="border: 1px solid black; border-collapse: collapse;">
+        <summary style="font-weight: bold;" >Programação</summary>
+        <tr><td><label for="cat3">Arduino Pro Micro</label></td>
+        <td><input type="checkbox" id="item1cat3" name="Arduino Pro Micro"></td></tr>
+        <tr><td><label for="cat3">Kit Iniciante Arduino</label></td>
+        <td><input type="checkbox" id="item2cat3" name="Kit Iniciante Arduino"></td></tr>
+        <tr><td><label for="cat3">Placa Controladora CNC</label></td>
+        <td><input type="checkbox" id="item3cat3" name="Placa Controladora CNC"></td></tr>
+        <tr><td><label for="cat3">Arduino Uno Wifi</label></td>
+        <td><input type="checkbox" id="item4cat3" name="Arduino Uno Wifi"></td></tr>
+        <tr><td><label for="cat3">Módulo GPS Arduino</label></td>
+        <td><input type="checkbox" id="item5cat3" name="Módulo GPS Arduino"></td></tr>
+        <tr><td><label for="cat3">Kit Circuito Aprendizado</label></td>
+        <td><input type="checkbox" id="item6cat3" name="Kit Circuito Aprendizado"></td></tr>
+    </table></details>
+    
+    <details id="espcatped"><table style="border: 1px solid black; border-collapse: collapse;">
+        <summary style="font-weight: bold;" >Residencial</summary>
+        <tr><td><label for="cat4">Echo Show 8° Geração</label></td>
+        <td><input type="checkbox" id="item1cat4" name="Echo Show 8° Geração"></td></tr>
+        <tr><td><label for="cat4">Echo Dot 4</label></td>
+        <td><input type="checkbox" id="item2cat4" name="Echo Dot 4"></td></tr>
+        <tr><td><label for="cat4">Lâmpada Smart Wifi</label></td>
+        <td><input type="checkbox" id="item3cat4" name="Lâmpada Smart Wifi"></td></tr>
+        <tr><td><label for="cat4">Fechadura Eletrônica Pado</label></td>
+        <td><input type="checkbox" id="item4cat4" name="Fechadura Eletrônica Pado"></td></tr>
+        <tr><td><label for="cat4">Fita Led RGB</label></td>
+        <td><input type="checkbox" id="item5cat4" name="Fita Led RGB"></td></tr>
+        <tr><td><label for="cat4">Arpirador Robô Mondial</label></td>
+        <td><input type="checkbox" id="item6cat4" name="Arpirador Robô Mondial"></td></tr>
+    </table></details>
+
+    <br>
+    <label style="font-weight: bold;" for="obs">Alguma observação?</label>
+        <input type="textarea" name="Observação"><br>
+
+    <input type="hidden" name="_next" value="https://heronlh.github.io/FastStore/Obg.html"/>
+    <p></p>
+
+    <button type="submit">Enviar</button>
+    </form>
+    <p></p>
+    <div id="pagini">
+        <a href="index.html">Página inicial.</a>
+    </div>
+</body>
+
+</html>
